@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INSTITUTO CUIDAR E APRENDER</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>
+            <!-- ESTRATÉGIA: Se o logo for uma imagem com o nome da empresa, o 'alt' deve ser o próprio nome escrito da marca -->
+            <img src= "C:\Users\joaov\OneDrive\Desktop\Faculdade\DESENVOLVIMENTO FRONT END PARA WEB\Experiencia pratica 1\DFW 1\img\image_8191ebe8.jpg" class="logo" alt="Logotipo da ONG Institudo educar e aprender" width="150">
+        </h1>
+        <nav>
+    <ul>
+        <li><a href="index.html">Início</a></li>
+        <!-- Link atualizado para a nova página -->
+        <li><a href="html/projetos.html">Página de Projetos</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+    </ul>
+</nav>
+    </header>
+
+    <div class="container-layout">
+        
+        <main>
+            <section id="blog">
+                <h2>Últimas Novidades</h2>
+                
+                <article>
+                    <!-- ESTRATÉGIA: Ícone meramente decorativo. Deixamos o alt vazio (alt="") para que o leitor de tela o ignore e vá direto para o título -->
+                    <img src="icone-post.png" alt="" class="icone-decorativo">
+                    <h3>Título do projeto em destaque</h3>
+                    <p>Publicado em <time datetime="2026-09-20">20 de Setembro de 2026</time></p>
+                    <p>Este é o resumo ou corpo do artigo principal da página...</p>
+                    <a href="#ler-mais">Ler mais</a>
+                </article>
+                <article>
+    <h3>Subtitulo do projeto em destaque</h3>
+    <p>Publicado em <time datetime="2026-09-20">20 de Setembro de 2026</time></p>
+    <p>Este é o resumo ou corpo do artigo principal da página. O design agora conta com espaçamentos limpos, tipografia legível e sombras suaves para destacar os blocos.</p>
+    
+    <!-- Novo botão de destaque semântico e acessível -->
+    <a href="projetos.html" class="botao-projetos">Me leve à página de projetos &rarr;</a>
+</article>
+            </section>
+
+            <section id="sobre">
+                <h2>Sobre Nós</h2>
+                <p>Somos uma ONG focada em desenvolvimento web padronizado e acessível.</p>
+                
+                <figure>
+                    <!-- ESTRATÉGIA: Como a tag <figcaption> logo abaixo já funciona como uma legenda detalhada explicando o contexto da imagem, colocar uma descrição longa no 'alt' geraria redundância para o usuário. 
+                         Por isso, usamos um alt curto que apenas identifica o conteúdo da foto de forma direta. -->
+                    <img src="img/equipe.jpg" alt="Colaboradores reunidos em uma mesa de escritório">
+                    <figcaption>Nossa equipe planejando a arquitetura de informação de um projeto.</figcaption>
+                </figure>
+            </section>
+        </main>
+
+        <aside>
+            <h2>Links Recomendados</h2>
+            <ul>
+                <li><a href="#parceiro1">Parceiro 1</a></li>
+                <li><a href="#parceiro2">Parceiro 2</a></li>
+            </ul>
+            <h3>Anúncio</h3>
+            <!-- ESTRATÉGIA: Para banners de anúncios, o 'alt' deve conter o nome da marca anunciante e o objetivo da campanha (ex: cupom ou oferta) -->
+            <img src="banner-anuncio.jpg" alt="Propaganda Curso de HTML5: Garanta 50% de desconto nesta semana">
+            <p>Espaço reservado para publicidade lateral.</p>
+        </aside>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Meu Site Semântico. Todos os direitos reservados.</p>
+        <p>Contato: <a href="mailto:contato@site.com">contato@site.com</a></p>
+    </footer>
+
+</body>
+</html>
